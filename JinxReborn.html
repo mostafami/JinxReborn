@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JinxReborn Token Minting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #4A90E2;
+        }
+        .mint-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4A90E2;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .mint-btn:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Mint Your JinxReborn Tokens</h1>
+        <p style="text-align: center;">Click the button below to mint your tokens!</p>
+        <button class="mint-btn" onclick="mintToken()">Mint Token</button>
+    </div>
+
+    <script>
+        function mintToken() {
+            alert("Minting Token... (This will connect to your blockchain wallet)");
+            // Here you would connect the minting function of your blockchain
+        }
+    </script>
+
+</body>
+</html>
